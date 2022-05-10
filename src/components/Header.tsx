@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import SellCar from './SellCar';
+import SellCar from './SellCarBtn';
 
 const HeaderWrapper = styled.div`
   h1 {

@@ -22,13 +22,30 @@ module.exports = {
     // Airbnb's ESLint config requires this
     parserOptions: {
         project: './tsconfig.json',
+        ecmaFeatures: {
+            jsx: true,
+          },
+          ecmaVersion: 'latest',
+          sourceType: 'module',
     },
     rules: {
+        'react/jsx-filename-extension': [1, { extensions: ['.tsx', '.jsx'] }],
         // Include .prettierrc.js rules
-        'prettier/prettier': ['error', {}, { usePrettierrc: true }],
+        'prettier/prettier': ['error', {}, { usePrettierrc: false }],
         // We will use TypeScript's types for component props instead
         'react/prop-types': 'off',
         // We don't want unused vars
         '@typescript-eslint/no-unused-vars': ['error'],
+        '@typescript-eslint/explicit-module-boundary-types': 'off',
     },
+    settings: {
+        'import/resolver': {
+          node: {
+            extensions: ['.js', '.jsx', '.ts', '.tsx'],
+          },
+        },
+        'import/parsers': {
+          '@typescript-eslint/parser': ['.ts', '.tsx'],
+        },
+      },
 };
