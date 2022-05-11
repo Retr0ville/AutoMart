@@ -42,6 +42,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.fs-small {
+  font-size: 0.8rem;
+}
  /*colors*/
   /*colors-font*/
 .color-primary {
@@ -51,10 +54,13 @@ code {
   color : #d90429;
 }
 .color-gray-1 {
-  color : #2b2d42;
+  color : #5e5e5e;
+}
+.color-gray-2 {
+  color : #4e4e4e;
 }
 .color-gray {
-  color : #8d99ae;
+  color : #939393;
 }
 .color-light {
   color : #edf2f4;
@@ -143,6 +149,9 @@ code {
   .pointer {
     cursor: pointer;
   }
+  .default {
+    cursor: default;
+  }
   .fit-content {
     width: -moz-fit-content;
     width: fit-content;
@@ -153,11 +162,11 @@ code {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: -80px; /* gutter size offset */
+    margin-left: -50px; /* gutter size offset */
     width: auto;
   }
   .my-masonry-grid_column {
-    padding-left: 80px; /* gutter size */
+    padding-left: 50px; /* gutter size */
     background-clip: padding-box;
   }
   .my-masonry-grid_column > div {

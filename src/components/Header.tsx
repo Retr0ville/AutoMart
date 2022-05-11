@@ -28,7 +28,7 @@ const HeaderWrapper = styled.div`
 
 const Header = () => {
   return (
-    <HeaderWrapper className="w-100 align-items-lg-center justify-content-lg-center d-flex bg-danger">
+    <HeaderWrapper className="w-100 bg-danger align-items-lg-center justify-content-lg-center d-flex">
       <div className="container mw-1360 d-flex justify-content-center align-items-center justify-content-sm-start align-items-lg-center justify-content-lg-center lg-row mx-2 my-2">
         <div className="buy-sell col-lg-6 pointer d-flex rounded-infinite ps-2 pe-4">
           <img src="\android-chrome-192x192.png" width={100} alt="car logo" className="car-logo my-2" />

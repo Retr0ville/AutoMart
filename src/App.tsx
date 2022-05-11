@@ -6,10 +6,10 @@ import HomeList from './pages/HomeList';
 
 const App = () => {
     return (
-        <>
+        <div className="d-flex flex-column ">
             <Header />
             <HomeList />
-        </>
+        </div>
     )
 };
 
