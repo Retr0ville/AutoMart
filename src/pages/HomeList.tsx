@@ -137,127 +137,7 @@ const HomeList = () => {
               </button>
             </div>
           </div>
-          <div className=" card d-flex rounded shadow hover-shadow pointer bg-light flex-column w-100 mt-3 mt-sm-4 mt-md-5 bg-danger color-alt">
-            <img src="/images/sample-car.jpg" className="w-100" alt="auto-sale" />
-            <div className="d-flex flex-column p-2 justify-content-between align-items-start">
-              <h6 className="fw-bolder color-gray">
-                Toyota Corola
-              </h6>
-              <h5 className="fw-bolder color-gray-1">
-                $1,000,000
-              </h5>
-              <div className="rule" />
-              <div className="row mx-2">
-                <div className="col-6">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima molestias commodi adipisci, dignissimos soluta esse beatae officiis aliquam deserunt nobis?
-                </div>
-                <div className="col-6">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima molestias commodi adipisci, dignissimos soluta esse beatae officiis aliquam deserunt nobis?
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className=" card d-flex rounded shadow hover-shadow pointer bg-light flex-column w-100 mt-3 mt-sm-4 mt-md-5 bg-danger color-alt">
-            <img src="/images/sample-car3.jpg" className="w-100" alt="auto-sale" />
-            <div className="d-flex flex-column p-2 justify-content-between align-items-start">
-              <h6 className="fw-bolder color-gray">
-                Toyota Corola
-              </h6>
-              <h5 className="fw-bolder color-gray-1">
-                $1,000,000
-              </h5>
-              <div className="rule" />
-              <div className="row mx-2">
-                <div className="col-6">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima molestias commodi adipisci, dignissimos soluta esse beatae officiis aliquam deserunt nobis?
-                </div>
-                <div className="col-6">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima molestias commodi adipisci, dignissimos soluta esse beatae officiis aliquam deserunt nobis?
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className=" card d-flex rounded shadow hover-shadow pointer bg-light flex-column w-100 mt-3 mt-sm-4 mt-md-5 bg-danger color-alt">
-            <img src="/images/sample-car4.jpg" className="w-100" alt="auto-sale" />
-            <div className="d-flex flex-column p-2 justify-content-between align-items-start">
-              <h6 className="fw-bolder color-gray">
-                Toyota Corola
-              </h6>
-              <h5 className="fw-bolder color-gray-1">
-                $1,000,000
-              </h5>
-              <div className="rule" />
-              <div className="row mx-2">
-                <div className="col-6">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima molestias commodi adipisci, dignissimos soluta esse beatae officiis aliquam deserunt nobis?
-                </div>
-                <div className="col-6">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima molestias commodi adipisci, dignissimos soluta esse beatae officiis aliquam deserunt nobis?
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className=" card d-flex rounded shadow hover-shadow pointer bg-light flex-column w-100 mt-3 mt-sm-4 mt-md-5 bg-danger color-alt">
-            <img src="/images/sample-car5.jpg" className="w-100" alt="auto-sale" />
-            <div className="d-flex flex-column p-2 justify-content-between align-items-start">
-              <h6 className="fw-bolder color-gray">
-                Toyota Corola
-              </h6>
-              <h5 className="fw-bolder color-gray-1">
-                $1,000,000
-              </h5>
-              <div className="rule" />
-              <div className="row mx-2">
-                <div className="col-6">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima molestias commodi adipisci, dignissimos soluta esse beatae officiis aliquam deserunt nobis?
-                </div>
-                <div className="col-6">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima molestias commodi adipisci, dignissimos soluta esse beatae officiis aliquam deserunt nobis?
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className=" card d-flex rounded shadow hover-shadow pointer bg-light flex-column w-100 mt-3 mt-sm-4 mt-md-5 bg-danger color-alt">
-            <img src="/images/sample-car6.jpg" className="w-100" alt="auto-sale" />
-            <div className="d-flex flex-column p-2 justify-content-between align-items-start">
-              <h6 className="fw-bolder color-gray">
-                Toyota Corola
-              </h6>
-              <h5 className="fw-bolder color-gray-1">
-                $1,000,000
-              </h5>
-              <div className="rule" />
-              <div className="row">
-                <div className="col-6">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima molestias commodi adipisci, dignissimos soluta esse beatae officiis aliquam deserunt nobis?
-                </div>
-                <div className="col-6">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima molestias commodi adipisci, dignissimos soluta esse beatae officiis aliquam deserunt nobis?
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className=" card d-flex rounded shadow hover-shadow pointer bg-light flex-column w-100 mt-3 mt-sm-4 mt-md-5 bg-danger color-alt">
-            <img src="/images/sample-car7.jpg" className="w-100" alt="auto-sale" />
-            <div className="d-flex flex-column p-2 justify-content-between align-items-start">
-              <h6 className="fw-bolder color-gray">
-                Toyota Corola
-              </h6>
-              <h5 className="fw-bolder color-gray-1">
-                $1,000,000
-              </h5>
-              <div className="rule" />
-              <div className="row mx-2">
-                <div className="col-6">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima molestias commodi adipisci, dignissimos soluta esse beatae officiis aliquam deserunt nobis?
-                </div>
-                <div className="col-6">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima molestias commodi adipisci, dignissimos soluta esse beatae officiis aliquam deserunt nobis?
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className=" card d-flex rounded shadow hover-shadow pointer bg-light flex-column w-100 mt-3 mt-sm-4 mt-md-5 bg-danger color-alt">
+          <div className="detail card d-flex rounded shadow hover-shadow pointer bg-light flex-column w-100 mt-3 mt-sm-4 mt-md-5 bg-danger">
             <img src="/images/sample-car2.png" className="w-100" alt="auto-sale" />
             <div className="d-flex flex-column p-2 justify-content-between align-items-start">
               <h6 className="fw-bolder color-gray">
@@ -267,17 +147,296 @@ const HomeList = () => {
                 $1,000,000
               </h5>
               <div className="rule" />
-              <div className="row mx-2">
-                <div className="col-6">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima molestias commodi adipisci, dignissimos soluta esse beatae officiis aliquam deserunt nobis?
+              <div className="d-flex w-100 justify-content-around me-2">
+                <div className="col-6 fs-small d-flex flex-column my-3 pe-1 text-dark">
+                  <div className="d-flex mb-1 align-items-center">
+                    <div className="d-flex align-items-center align-self-start" style={{ width: '17.5px' }}>
+                      {svgs.odometer}
+                    </div>
+                    <span className="d-flex flex-column ms-2">
+                      <span>8,952 km</span>
+                      <span className="color-gray">Odometer</span>
+                    </span>
+                  </div>
+                  <div className="rule" />
+                  <div className="d-flex mb-1 align-items-center">
+                    <div className="d-flex align-items-center align-self-start" style={{ width: '18px' }}>
+                      {svgs.bodyType}
+                    </div>
+                    <span className="d-flex flex-column ms-2">
+                      <span>Sedan</span>
+                      <span className="color-gray">Body-type</span>
+                    </span>
+                  </div>
                 </div>
-                <div className="col-6">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima molestias commodi adipisci, dignissimos soluta esse beatae officiis aliquam deserunt nobis?
+                <div className="v-rule" />
+                <div className="col-6 fs-small d-flex flex-column text-dark ps-2 my-3">
+                  <div className="d-flex mb-1 align-items-center">
+                    <div className="d-flex align-items-center align-self-start" style={{ width: '14px' }}>
+                      {svgs.transmission}
+                    </div>
+                    <span className="d-flex flex-column ms-2">
+                      <span>Automatic</span>
+                      <span className="color-gray">Transmission</span>
+                    </span>
+                  </div>
+                  <div className="rule" />
+                  <div className="d-flex mb-1 align-items-center">
+                    <div className="d-flex align-items-center align-self-start" style={{ width: '18px' }}>
+                      {svgs.engine}
+                    </div>
+                    <span className="d-flex flex-column ms-2">
+                      <span>4cyl 2.0L Petrol</span>
+                      <span className="color-gray">Engine</span>
+                    </span>
+                  </div>
                 </div>
               </div>
+              <button type='button' className="align-self-center pointer mt-1 rounded p-1 border-light bg-color-light px-4 py-1 color-gray-2 fw-bold hover-shadow">
+                View Details
+              </button>
             </div>
           </div>
-
+          <div className="detail card d-flex rounded shadow hover-shadow pointer bg-light flex-column w-100 mt-3 mt-sm-4 mt-md-5 bg-danger">
+            <img src="/images/sample-car2.png" className="w-100" alt="auto-sale" />
+            <div className="d-flex flex-column p-2 justify-content-between align-items-start">
+              <h6 className="fw-bolder color-gray">
+                Toyota Corola
+              </h6>
+              <h5 className="fw-bolder color-gray-1">
+                $1,000,000
+              </h5>
+              <div className="rule" />
+              <div className="d-flex w-100 justify-content-around me-2">
+                <div className="col-6 fs-small d-flex flex-column my-3 pe-1 text-dark">
+                  <div className="d-flex mb-1 align-items-center">
+                    <div className="d-flex align-items-center align-self-start" style={{ width: '17.5px' }}>
+                      {svgs.odometer}
+                    </div>
+                    <span className="d-flex flex-column ms-2">
+                      <span>8,952 km</span>
+                      <span className="color-gray">Odometer</span>
+                    </span>
+                  </div>
+                  <div className="rule" />
+                  <div className="d-flex mb-1 align-items-center">
+                    <div className="d-flex align-items-center align-self-start" style={{ width: '18px' }}>
+                      {svgs.bodyType}
+                    </div>
+                    <span className="d-flex flex-column ms-2">
+                      <span>Sedan</span>
+                      <span className="color-gray">Body-type</span>
+                    </span>
+                  </div>
+                </div>
+                <div className="v-rule" />
+                <div className="col-6 fs-small d-flex flex-column text-dark ps-2 my-3">
+                  <div className="d-flex mb-1 align-items-center">
+                    <div className="d-flex align-items-center align-self-start" style={{ width: '14px' }}>
+                      {svgs.transmission}
+                    </div>
+                    <span className="d-flex flex-column ms-2">
+                      <span>Automatic</span>
+                      <span className="color-gray">Transmission</span>
+                    </span>
+                  </div>
+                  <div className="rule" />
+                  <div className="d-flex mb-1 align-items-center">
+                    <div className="d-flex align-items-center align-self-start" style={{ width: '18px' }}>
+                      {svgs.engine}
+                    </div>
+                    <span className="d-flex flex-column ms-2">
+                      <span>4cyl 2.0L Petrol</span>
+                      <span className="color-gray">Engine</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <button type='button' className="align-self-center pointer mt-1 rounded p-1 border-light bg-color-light px-4 py-1 color-gray-2 fw-bold hover-shadow">
+                View Details
+              </button>
+            </div>
+          </div>
+          <div className="detail card d-flex rounded shadow hover-shadow pointer bg-light flex-column w-100 mt-3 mt-sm-4 mt-md-5 bg-danger">
+            <img src="/images/sample-car2.png" className="w-100" alt="auto-sale" />
+            <div className="d-flex flex-column p-2 justify-content-between align-items-start">
+              <h6 className="fw-bolder color-gray">
+                Toyota Corola
+              </h6>
+              <h5 className="fw-bolder color-gray-1">
+                $1,000,000
+              </h5>
+              <div className="rule" />
+              <div className="d-flex w-100 justify-content-around me-2">
+                <div className="col-6 fs-small d-flex flex-column my-3 pe-1 text-dark">
+                  <div className="d-flex mb-1 align-items-center">
+                    <div className="d-flex align-items-center align-self-start" style={{ width: '17.5px' }}>
+                      {svgs.odometer}
+                    </div>
+                    <span className="d-flex flex-column ms-2">
+                      <span>8,952 km</span>
+                      <span className="color-gray">Odometer</span>
+                    </span>
+                  </div>
+                  <div className="rule" />
+                  <div className="d-flex mb-1 align-items-center">
+                    <div className="d-flex align-items-center align-self-start" style={{ width: '18px' }}>
+                      {svgs.bodyType}
+                    </div>
+                    <span className="d-flex flex-column ms-2">
+                      <span>Sedan</span>
+                      <span className="color-gray">Body-type</span>
+                    </span>
+                  </div>
+                </div>
+                <div className="v-rule" />
+                <div className="col-6 fs-small d-flex flex-column text-dark ps-2 my-3">
+                  <div className="d-flex mb-1 align-items-center">
+                    <div className="d-flex align-items-center align-self-start" style={{ width: '14px' }}>
+                      {svgs.transmission}
+                    </div>
+                    <span className="d-flex flex-column ms-2">
+                      <span>Automatic</span>
+                      <span className="color-gray">Transmission</span>
+                    </span>
+                  </div>
+                  <div className="rule" />
+                  <div className="d-flex mb-1 align-items-center">
+                    <div className="d-flex align-items-center align-self-start" style={{ width: '18px' }}>
+                      {svgs.engine}
+                    </div>
+                    <span className="d-flex flex-column ms-2">
+                      <span>4cyl 2.0L Petrol</span>
+                      <span className="color-gray">Engine</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <button type='button' className="align-self-center pointer mt-1 rounded p-1 border-light bg-color-light px-4 py-1 color-gray-2 fw-bold hover-shadow">
+                View Details
+              </button>
+            </div>
+          </div>
+          <div className="detail card d-flex rounded shadow hover-shadow pointer bg-light flex-column w-100 mt-3 mt-sm-4 mt-md-5 bg-danger">
+            <img src="/images/sample-car2.png" className="w-100" alt="auto-sale" />
+            <div className="d-flex flex-column p-2 justify-content-between align-items-start">
+              <h6 className="fw-bolder color-gray">
+                Toyota Corola
+              </h6>
+              <h5 className="fw-bolder color-gray-1">
+                $1,000,000
+              </h5>
+              <div className="rule" />
+              <div className="d-flex w-100 justify-content-around me-2">
+                <div className="col-6 fs-small d-flex flex-column my-3 pe-1 text-dark">
+                  <div className="d-flex mb-1 align-items-center">
+                    <div className="d-flex align-items-center align-self-start" style={{ width: '17.5px' }}>
+                      {svgs.odometer}
+                    </div>
+                    <span className="d-flex flex-column ms-2">
+                      <span>8,952 km</span>
+                      <span className="color-gray">Odometer</span>
+                    </span>
+                  </div>
+                  <div className="rule" />
+                  <div className="d-flex mb-1 align-items-center">
+                    <div className="d-flex align-items-center align-self-start" style={{ width: '18px' }}>
+                      {svgs.bodyType}
+                    </div>
+                    <span className="d-flex flex-column ms-2">
+                      <span>Sedan</span>
+                      <span className="color-gray">Body-type</span>
+                    </span>
+                  </div>
+                </div>
+                <div className="v-rule" />
+                <div className="col-6 fs-small d-flex flex-column text-dark ps-2 my-3">
+                  <div className="d-flex mb-1 align-items-center">
+                    <div className="d-flex align-items-center align-self-start" style={{ width: '14px' }}>
+                      {svgs.transmission}
+                    </div>
+                    <span className="d-flex flex-column ms-2">
+                      <span>Automatic</span>
+                      <span className="color-gray">Transmission</span>
+                    </span>
+                  </div>
+                  <div className="rule" />
+                  <div className="d-flex mb-1 align-items-center">
+                    <div className="d-flex align-items-center align-self-start" style={{ width: '18px' }}>
+                      {svgs.engine}
+                    </div>
+                    <span className="d-flex flex-column ms-2">
+                      <span>4cyl 2.0L Petrol</span>
+                      <span className="color-gray">Engine</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <button type='button' className="align-self-center pointer mt-1 rounded p-1 border-light bg-color-light px-4 py-1 color-gray-2 fw-bold hover-shadow">
+                View Details
+              </button>
+            </div>
+          </div>
+          <div className="detail card d-flex rounded shadow hover-shadow pointer bg-light flex-column w-100 mt-3 mt-sm-4 mt-md-5 bg-danger">
+            <img src="/images/sample-car2.png" className="w-100" alt="auto-sale" />
+            <div className="d-flex flex-column p-2 justify-content-between align-items-start">
+              <h6 className="fw-bolder color-gray">
+                Toyota Corola
+              </h6>
+              <h5 className="fw-bolder color-gray-1">
+                $1,000,000
+              </h5>
+              <div className="rule" />
+              <div className="d-flex w-100 justify-content-around me-2">
+                <div className="col-6 fs-small d-flex flex-column my-3 pe-1 text-dark">
+                  <div className="d-flex mb-1 align-items-center">
+                    <div className="d-flex align-items-center align-self-start" style={{ width: '17.5px' }}>
+                      {svgs.odometer}
+                    </div>
+                    <span className="d-flex flex-column ms-2">
+                      <span>8,952 km</span>
+                      <span className="color-gray">Odometer</span>
+                    </span>
+                  </div>
+                  <div className="rule" />
+                  <div className="d-flex mb-1 align-items-center">
+                    <div className="d-flex align-items-center align-self-start" style={{ width: '18px' }}>
+                      {svgs.bodyType}
+                    </div>
+                    <span className="d-flex flex-column ms-2">
+                      <span>Sedan</span>
+                      <span className="color-gray">Body-type</span>
+                    </span>
+                  </div>
+                </div>
+                <div className="v-rule" />
+                <div className="col-6 fs-small d-flex flex-column text-dark ps-2 my-3">
+                  <div className="d-flex mb-1 align-items-center">
+                    <div className="d-flex align-items-center align-self-start" style={{ width: '14px' }}>
+                      {svgs.transmission}
+                    </div>
+                    <span className="d-flex flex-column ms-2">
+                      <span>Automatic</span>
+                      <span className="color-gray">Transmission</span>
+                    </span>
+                  </div>
+                  <div className="rule" />
+                  <div className="d-flex mb-1 align-items-center">
+                    <div className="d-flex align-items-center align-self-start" style={{ width: '18px' }}>
+                      {svgs.engine}
+                    </div>
+                    <span className="d-flex flex-column ms-2">
+                      <span>4cyl 2.0L Petrol</span>
+                      <span className="color-gray">Engine</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <button type='button' className="align-self-center pointer mt-1 rounded p-1 border-light bg-color-light px-4 py-1 color-gray-2 fw-bold hover-shadow">
+                View Details
+              </button>
+            </div>
+          </div>
         </Masonry>
       </div>
     </HomeListWrapper>
