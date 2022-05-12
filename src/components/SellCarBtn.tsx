@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import { FaPlus } from 'react-icons/fa';
 
@@ -26,8 +27,9 @@ const SellCarWrapper = styled.div`
 
 // eslint-disable-next-line react/require-default-props
 const SellCarBtn = ({ classNames } : {classNames? : string}) => {
+  const navigate = useNavigate();
   return (
-    <SellCarWrapper className={`sell d-flex align-items-center me-2 mb-1 ${classNames || ''}`}>
+    <SellCarWrapper onClick={()=>{navigate(/sell)}} className={`sell d-flex align-items-center me-2 mb-1 ${classNames || ''}`}>
       <img src="\images\car-plus-cropped.png" width={65} alt="add-car" className="add-car" />
       <FaPlus className= "add-car-icon color-light mb-auto" />
     </SellCarWrapper>

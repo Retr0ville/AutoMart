@@ -1,6 +1,10 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/interactive-supports-focus */
 import React from 'react';
+import { useNavigate } from 'react-router';
 import styled from 'styled-components';
 import SellCar from './SellCarBtn';
+
 
 const HeaderWrapper = styled.div`
   h1 {
@@ -24,12 +28,16 @@ const HeaderWrapper = styled.div`
       transform: scale(1.005);
     }
   }
+  @media only screen and (max-width: 390px){
+    min-width:390px !important;
+  }
 `;
 
 const Header = () => {
+  const navigate = useNavigate();
   return (
     <HeaderWrapper className="w-100 bg-danger align-items-lg-center justify-content-lg-center d-flex">
-      <div className="container mw-1360 d-flex justify-content-center align-items-center justify-content-sm-start align-items-lg-center justify-content-lg-center lg-row mx-2 my-2">
+      <div role="button" onClick={() => { navigate("/") }} className="container mw-1360 d-flex justify-content-center align-items-center justify-content-sm-start align-items-lg-center justify-content-lg-center lg-row mx-0 mx-sm-2 my-2">
         <div className="buy-sell col-lg-6 pointer d-flex rounded-infinite ps-2 pe-4">
           <img src="\android-chrome-192x192.png" width={100} alt="car logo" className="car-logo my-2" />
           <div className="d-flex flex-column justify-content-between mt-2">
