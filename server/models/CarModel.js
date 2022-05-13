@@ -63,7 +63,7 @@ const carSchema = new mongoose.Schema({
     default: void 0,
     validate: ((value)=>{
           urlRegex = /(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-/]))?/;
-    return urlRegex.test(value);
+          return urlRegex.test(value);
      }),
     type: [ String, '{VALUE} has an invalid data type'],
     required: [true, 'image is a required field'],
