@@ -21,6 +21,20 @@ const get_car = async ( req, res ) => {
 }
   else {res.status(404).send({error: 'car doesn\'t exist in database'})}
 }
+
+const delete_car = async ( req, res ) => {
+  const { id } = req.params
+  const exists = ( (mongoose.Types.ObjectId.isValid(id)) && (await carModel.exists({_id: id})))
+  if(exists){
+  carModel.findByIdAndDelete(id)
+    .then((car)=>{
+      car && res.status(200).send(car)
+    })
+    .catch(err => {res.status(400).json({error: err.message})})
+  }
+  else {res.status(404).send({error: 'car doesn\'t exist in database'})}
+}
+
 const create_cars = ( req, res ) => {
   try {
     const carInstance = new carModel(req.body)
@@ -36,5 +50,6 @@ const create_cars = ( req, res ) => {
 module.exports = {
   get_cars,
   get_car,
+  delete_car,
   create_cars,
 }
