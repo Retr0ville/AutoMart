@@ -1,6 +1,6 @@
 AutoMart
 
-an end to end carsale board
+an MERN stack carsale board
 
 hosted on https://rtrvl-automart.herokuapp.com/
 
